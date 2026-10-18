@@ -9,7 +9,7 @@ class connection{
   public function __construct(){
     $servername = "localhost";
     $username = "voz";
-    $password = "2r5sT6bjeCGVbeUe";
+    $password = getenv("VOZ_DB_PASS");
     $database="twitter_sniper";
 
     // the connection is stored inside the private variable

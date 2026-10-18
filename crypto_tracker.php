@@ -19,7 +19,7 @@ $tda = new tda($conn);
 /* 
 $host = "localhost";
 $dbUser = "voz";
-$password = "2r5sT6bjeCGVbeUe";
+$password = getenv("VOZ_DB_PASS");
 $database="ct";
 
 $dbConn = new mysqli($host,$dbUser,$password,$database);

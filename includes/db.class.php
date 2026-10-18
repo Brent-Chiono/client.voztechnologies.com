@@ -9,7 +9,7 @@
   {
     $servername = "localhost";
     $username = "voz";
-    $password = "2r5sT6bjeCGVbeUe";
+    $password = getenv("VOZ_DB_PASS");
     $database="voz";
 
 	// the connection is stored inside the private variable

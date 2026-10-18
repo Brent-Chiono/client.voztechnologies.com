@@ -8,7 +8,7 @@ define('DB_NAME','');
 /////
 
 
-$conn = new mysqli($host, 'voz', "2r5sT6bjeCGVbeUe", DB_NAME);
+$conn = new mysqli($host, 'voz', getenv("VOZ_DB_PASS"), DB_NAME);
 include_once('/var/www/shared_files/city_info.php');
 
 print "<br />Starting<br />";
